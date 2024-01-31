@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Dosis', sans-serif;
+    /* padding: 2%; */
+}
+
+.outer-grid {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 70px 1fr;
+    grid-template-columns: 90px 1fr;
+}
+
+header {
+    background-color: rgba(0, 31, 255, 0.5)
+}
+
+nav {
+    background-color: rgba(0, 31, 255, 0.8);
+}
+
+.inner-grid {
+    background-color: rgba(0, 31, 255, 0.2);
+}
+
