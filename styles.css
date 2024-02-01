@@ -40,3 +40,7 @@ nav {
     background-color: rgba(0, 31, 255, 0.2);
 }
 
+.hide-nav {
+    display: none;
+}
+
