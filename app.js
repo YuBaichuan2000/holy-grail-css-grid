@@ -1,4 +1,4 @@
-const ham = document.querySelector(".hamburger");
+const ham = document.querySelector(".fa-bars");
 
 ham.addEventListener('click', ()=> {
     outerGrid = document.querySelector(".outer-grid");

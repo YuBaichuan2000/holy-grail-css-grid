@@ -44,3 +44,19 @@ nav {
     display: none;
 }
 
+@media (min-width: 576px){
+    
+    .hide-nav {
+        display: block;
+    }
+
+    .outer-grid {
+        grid-template-areas: 
+        "alias-header alias-header"
+        "alias-nav alias-innergrid"; 
+    }
+
+    .fa-bars {
+        display: none;
+    }
+}
