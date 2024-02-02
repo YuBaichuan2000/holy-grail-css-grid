@@ -6,7 +6,8 @@
 
 html {
     font-family: 'Dosis', sans-serif;
-    /* padding: 2%; */
+    font-size: 16px;
+    color: #1e4040;
 }
 
 .outer-grid {
@@ -26,8 +27,41 @@ html {
 }
 
 header {
+    display: flex;
     grid-area: alias-header;
     background-color: rgba(0, 31, 255, 0.5);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+}
+
+#right-header {
+    display: flex;
+}
+
+#left-header {
+    display: flex;
+    align-items: center;
+}
+
+.fa-bars {
+    margin-right: 20px;
+}
+
+.fa-bars:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.header-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+
+.header-link i {
+    font-size: 0.8rem;
 }
 
 nav {
@@ -67,6 +101,14 @@ footer {
     background-color: rgba(255, 122, 0, 0.7);
 }
 
+a {
+    color: #71d99e;
+}
+
+header, footer {
+    background-color: #1e4040;
+    color: #71d99e;
+}
 
 @media (min-width: 576px) { 
     .hide-nav {
