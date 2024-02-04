@@ -137,3 +137,30 @@ header, footer {
     }
     
 }
+
+@media (min-width: 1440px) {
+    header {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 950px 1fr;
+        grid-template-areas:
+            "alias-left . alias-right";
+    }
+
+    #left-header {
+        grid-area: alias-left;
+        justify-self: end;
+    }
+
+    #right-header {
+        grid-area: alias-right;
+        justify-self: start;
+    }
+
+    .outer-grid {
+        grid-template-columns: 1fr 950px 1fr;
+        grid-template-areas:
+            "alias-header alias-header alias-header"
+            "alias-nav alias-innergrid alias-innergrid";
+    }
+}
