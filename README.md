@@ -1,16 +1,51 @@
-## Project Overview
+# Holy Grail Layout Design
 
-In this video tutorial, you will build the [Holy Grail](https://en.wikipedia.org/wiki/Holy_grail_(web_design)) CSS Layout using CSS Grid.
+This is a solution to the frontend challenge designed by [Full Stack Zach](https://www.youtube.com/@zachgoll). 
 
-You can see the [final version here](https://zachgoll.github.io/holy-grail-css-layout/).
+## Table of contents
 
-You can see the solution to this challenge on the [Github Pages branch](https://github.com/zachgoll/holy-grail-css-layout/tree/gh-pages) of this repository.
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
 
-This is part of my [#fullstackroadmap series](https://www.zachgollwitzer.com/posts/2021/fullstack-developer-series/introduction/), which will take you from a complete beginner (no coding experience) to deploying your first full-stack E-Commerce app with ReactJS.
 
-## Instructions
+## Overview
 
-To build this, you will need two things:
+### Screenshot
 
-- [YouTube Video]() (coming soon) - I suggest watching this video _at least_ until you complete the layout of this design.
-- [Style Guide](./style-guide.md) - Here, you will find fonts, colors, and other style resources to assist you while building.
+<img src="images/Screenshot 2024-01-29 at 12.20.04.png" alt="screenshot" width="500"/>
+
+### Links
+
+- Live Site URL: [Live Site](https://yubaichuan2000.github.io/qr-code-challenge/)
+
+## My process
+
+### Built with
+
+- HTML5
+- CSS3
+
+### What I learned
+
+One popular skill I learnt was how to set a background image. I believe I will use this skill over and over again in the future.
+
+```css
+#qr-code {
+    width: 100%;
+    height: 100%;
+    background-image: url('images/image-qr-code.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+```
+
+## Author
+
+- Reach out to me on Linkedin - [George Yu](https://www.linkedin.com/in/george-yu-a6800a227/)
